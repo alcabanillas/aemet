@@ -18,7 +18,7 @@ let dates = () => {
 
 const isValidPeriod = (elem, numDia)  => {
   if (numDia <= 1){
-    return (elem.value != '' &&   (!((/00-24/.test(elem.periodo)) ||  (/00-12/.test(elem.periodo) || /12-24/.test(elem.periodo)))))
+    return (elem.value !== '' &&   (!((/00-24/.test(elem.periodo)) ||  (/00-12/.test(elem.periodo) || /12-24/.test(elem.periodo)))))
   }
   return (numDia > 3) ||
      (/00-12/.test(elem.periodo) || /12-24/.test(elem.periodo))
@@ -45,8 +45,7 @@ const TableHeader = ({isLoading, dias}) => {
   )
 }
 
-const HeaderNiv2 = ({estadoCielo, numDia}) => {
-
+const EstadoCielo = ({estadoCielo, numDia}) => {
   return (
     estadoCielo.filter( (element) => isValidPeriod(element,numDia)).
       map( (element, index) => { 
@@ -64,14 +63,56 @@ const Row1 = ({dias}) => {
   return (
     <tr>{
       dias.map( (element, index) => {
-        return <HeaderNiv2 key={index} numDia={index} estadoCielo={element.estadoCielo}></HeaderNiv2>})}
+        return <EstadoCielo key={index} numDia={index} estadoCielo={element.estadoCielo}></EstadoCielo>})}
     </tr>  
   )
 }
 
-const Row2 = () => {
-  return (<tr></tr>)  
+const FilaPar = ({dias, texto}) => {
+  let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
+  let numCols = col.reduce( (accValue, current) => accValue + Number(current));
+
+  return (<tr className='fila_par'>
+    <th colSpan={numCols}>{texto}</th>
+  </tr>)  
 }
+
+const Row3 = ({dias}) => {
+  let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
+  return (<tr>
+  {dias.map((elem, index) => {
+    let datos = elem.probPrecipitacion.filter((value) => { return /00-24/.test(value.periodo) || (value.periodo===undefined) });
+    console.log(datos[0].value)
+    return <ProbPrecipitacion key={index} probPrecipitacion={datos[0].value} colSpan={col[index]} ></ProbPrecipitacion>
+  })}
+  </tr>
+)}
+
+
+const ProbPrecipitacion = ({probPrecipitacion, colSpan}) => {
+    return (
+      <td colSpan={colSpan}>{probPrecipitacion}%</td>
+    )
+}
+
+
+const Row4 = ({dias}) => {
+  let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
+  return (<tr>
+  {dias.map((elem, index) => {
+    return <Temperatura key={index} maxima={elem.temperatura.maxima} minima={elem.temperatura.minima} colSpan={col[index]} ></Temperatura>
+  })}
+  </tr>
+  )
+}
+
+
+const Temperatura = ({maxima, minima, colSpan}) => {
+  return (
+    <td colSpan={colSpan}>{minima}/{maxima}</td>
+  )
+}
+
 
 
 const WeatherPred = ({ cityCode, cityName}) => {
@@ -95,7 +136,10 @@ const WeatherPred = ({ cityCode, cityName}) => {
           <TableHeader dias={data.prediccion.dia} isLoading={isLoading}></TableHeader>
           <tbody>
             <Row1 dias={data.prediccion.dia}></Row1>
-            <Row2 dias={data.prediccion.dia}></Row2>
+            <FilaPar dias={data.prediccion.dia} texto={"Probabilidad de precipitacion"} ></FilaPar>
+            <Row3 dias={data.prediccion.dia}></Row3>
+            <FilaPar dias={data.prediccion.dia} texto={"Temperatura"}></FilaPar>
+            <Row4 dias={data.prediccion.dia}></Row4>
           </tbody>
         </table>) }
       </div>
