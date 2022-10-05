@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { SelectCity} from './selectCity';
+import {WeatherPred} from './weatherPred';
 
-function App() {
+import { useState } from 'react';
+import {Container} from 'react-bootstrap';
+
+
+const Aemet = () => {
+  const [city, setCity] = useState("");
+  const [cityName, setCityName] = useState("");
+
+  const handleChange = ({ newCity, newCityName }) => {
+    setCity(newCity);
+    setCityName(newCityName);
+    console.log("Set city...");
+  };
+  console.log("Rendering app...");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <SelectCity handleChange={handleChange}></SelectCity>
+      {city !== "" && <WeatherPred cityCode={city} cityName={cityName} ></WeatherPred>}
+    </Container>
   );
-}
+};
 
-export default App;
+
+export default Aemet;

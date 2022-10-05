@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.th_header {
+	background-color: #5180C5;
+}
+
+.th_icon {
+	background-color: #95B6E9;
+}
+
+.fila_par {
+	background-color: #e2eef3
+}

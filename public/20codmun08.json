@@ -1,0 +1,1868 @@
+[
+ {
+  "CPRO": "08",
+  "CMUN": "001",
+  "DC": "8",
+  "NOMBRE": "Abrera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "002",
+  "DC": "3",
+  "NOMBRE": "Aguilar de Segarra"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "014",
+  "DC": "2",
+  "NOMBRE": "Aiguafreda"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "003",
+  "DC": "9",
+  "NOMBRE": "Alella"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "004",
+  "DC": "4",
+  "NOMBRE": "Alpens"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "005",
+  "DC": "7",
+  "NOMBRE": "Ametlla del Vallès, L'"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "006",
+  "DC": "0",
+  "NOMBRE": "Arenys de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "007",
+  "DC": "6",
+  "NOMBRE": "Arenys de Munt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "008",
+  "DC": "2",
+  "NOMBRE": "Argençola"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "009",
+  "DC": "5",
+  "NOMBRE": "Argentona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "010",
+  "DC": "9",
+  "NOMBRE": "Artés"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "011",
+  "DC": "6",
+  "NOMBRE": "Avià"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "012",
+  "DC": "1",
+  "NOMBRE": "Avinyó"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "013",
+  "DC": "7",
+  "NOMBRE": "Avinyonet del Penedès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "015",
+  "DC": "5",
+  "NOMBRE": "Badalona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "904",
+  "DC": "5",
+  "NOMBRE": "Badia del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "016",
+  "DC": "8",
+  "NOMBRE": "Bagà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "017",
+  "DC": "4",
+  "NOMBRE": "Balenyà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "018",
+  "DC": "0",
+  "NOMBRE": "Balsareny"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "252",
+  "DC": "0",
+  "NOMBRE": "Barberà del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "019",
+  "DC": "3",
+  "NOMBRE": "Barcelona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "020",
+  "DC": "7",
+  "NOMBRE": "Begues"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "021",
+  "DC": "4",
+  "NOMBRE": "Bellprat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "022",
+  "DC": "9",
+  "NOMBRE": "Berga"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "023",
+  "DC": "5",
+  "NOMBRE": "Bigues i Riells"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "024",
+  "DC": "0",
+  "NOMBRE": "Borredà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "025",
+  "DC": "3",
+  "NOMBRE": "Bruc, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "026",
+  "DC": "6",
+  "NOMBRE": "Brull, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "027",
+  "DC": "2",
+  "NOMBRE": "Cabanyes, Les"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "028",
+  "DC": "8",
+  "NOMBRE": "Cabrera d'Anoia"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "029",
+  "DC": "1",
+  "NOMBRE": "Cabrera de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "030",
+  "DC": "5",
+  "NOMBRE": "Cabrils"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "031",
+  "DC": "2",
+  "NOMBRE": "Calaf"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "034",
+  "DC": "8",
+  "NOMBRE": "Calders"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "033",
+  "DC": "3",
+  "NOMBRE": "Caldes de Montbui"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "032",
+  "DC": "7",
+  "NOMBRE": "Caldes d'Estrac"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "035",
+  "DC": "1",
+  "NOMBRE": "Calella"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "037",
+  "DC": "0",
+  "NOMBRE": "Calldetenes"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "038",
+  "DC": "6",
+  "NOMBRE": "Callús"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "036",
+  "DC": "4",
+  "NOMBRE": "Calonge de Segarra"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "039",
+  "DC": "9",
+  "NOMBRE": "Campins"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "040",
+  "DC": "3",
+  "NOMBRE": "Canet de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "041",
+  "DC": "0",
+  "NOMBRE": "Canovelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "042",
+  "DC": "5",
+  "NOMBRE": "Cànoves i Samalús"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "043",
+  "DC": "1",
+  "NOMBRE": "Canyelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "044",
+  "DC": "6",
+  "NOMBRE": "Capellades"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "045",
+  "DC": "9",
+  "NOMBRE": "Capolat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "046",
+  "DC": "2",
+  "NOMBRE": "Cardedeu"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "047",
+  "DC": "8",
+  "NOMBRE": "Cardona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "048",
+  "DC": "4",
+  "NOMBRE": "Carme"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "049",
+  "DC": "7",
+  "NOMBRE": "Casserres"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "057",
+  "DC": "5",
+  "NOMBRE": "Castell de l'Areny"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "052",
+  "DC": "2",
+  "NOMBRE": "Castellar de n'Hug"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "050",
+  "DC": "0",
+  "NOMBRE": "Castellar del Riu"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "051",
+  "DC": "7",
+  "NOMBRE": "Castellar del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "053",
+  "DC": "8",
+  "NOMBRE": "Castellbell i el Vilar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "054",
+  "DC": "3",
+  "NOMBRE": "Castellbisbal"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "055",
+  "DC": "6",
+  "NOMBRE": "Castellcir"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "056",
+  "DC": "9",
+  "NOMBRE": "Castelldefels"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "058",
+  "DC": "1",
+  "NOMBRE": "Castellet i la Gornal"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "060",
+  "DC": "8",
+  "NOMBRE": "Castellfollit de Riubregós"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "059",
+  "DC": "4",
+  "NOMBRE": "Castellfollit del Boix"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "061",
+  "DC": "5",
+  "NOMBRE": "Castellgalí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "062",
+  "DC": "0",
+  "NOMBRE": "Castellnou de Bages"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "063",
+  "DC": "6",
+  "NOMBRE": "Castellolí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "064",
+  "DC": "1",
+  "NOMBRE": "Castellterçol"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "065",
+  "DC": "4",
+  "NOMBRE": "Castellví de la Marca"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "066",
+  "DC": "7",
+  "NOMBRE": "Castellví de Rosanes"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "067",
+  "DC": "3",
+  "NOMBRE": "Centelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "268",
+  "DC": "7",
+  "NOMBRE": "Cercs"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "266",
+  "DC": "5",
+  "NOMBRE": "Cerdanyola del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "068",
+  "DC": "9",
+  "NOMBRE": "Cervelló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "069",
+  "DC": "2",
+  "NOMBRE": "Collbató"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "070",
+  "DC": "6",
+  "NOMBRE": "Collsuspina"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "071",
+  "DC": "3",
+  "NOMBRE": "Copons"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "072",
+  "DC": "8",
+  "NOMBRE": "Corbera de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "073",
+  "DC": "4",
+  "NOMBRE": "Cornellà de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "074",
+  "DC": "9",
+  "NOMBRE": "Cubelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "075",
+  "DC": "2",
+  "NOMBRE": "Dosrius"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "076",
+  "DC": "5",
+  "NOMBRE": "Esparreguera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "077",
+  "DC": "1",
+  "NOMBRE": "Esplugues de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "078",
+  "DC": "7",
+  "NOMBRE": "Espunyola, L'"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "254",
+  "DC": "1",
+  "NOMBRE": "Esquirol, L'"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "079",
+  "DC": "0",
+  "NOMBRE": "Estany, L'"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "134",
+  "DC": "7",
+  "NOMBRE": "Figaró-Montmany"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "080",
+  "DC": "4",
+  "NOMBRE": "Fígols"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "082",
+  "DC": "6",
+  "NOMBRE": "Fogars de la Selva"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "081",
+  "DC": "1",
+  "NOMBRE": "Fogars de Montclús"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "083",
+  "DC": "2",
+  "NOMBRE": "Folgueroles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "084",
+  "DC": "7",
+  "NOMBRE": "Fonollosa"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "085",
+  "DC": "0",
+  "NOMBRE": "Font-rubí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "086",
+  "DC": "3",
+  "NOMBRE": "Franqueses del Vallès, Les"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "090",
+  "DC": "2",
+  "NOMBRE": "Gaià"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "087",
+  "DC": "9",
+  "NOMBRE": "Gallifa"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "088",
+  "DC": "5",
+  "NOMBRE": "Garriga, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "089",
+  "DC": "8",
+  "NOMBRE": "Gavà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "091",
+  "DC": "9",
+  "NOMBRE": "Gelida"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "092",
+  "DC": "4",
+  "NOMBRE": "Gironella"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "093",
+  "DC": "0",
+  "NOMBRE": "Gisclareny"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "094",
+  "DC": "5",
+  "NOMBRE": "Granada, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "095",
+  "DC": "8",
+  "NOMBRE": "Granera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "096",
+  "DC": "1",
+  "NOMBRE": "Granollers"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "097",
+  "DC": "7",
+  "NOMBRE": "Gualba"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "099",
+  "DC": "6",
+  "NOMBRE": "Guardiola de Berguedà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "100",
+  "DC": "0",
+  "NOMBRE": "Gurb"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "101",
+  "DC": "7",
+  "NOMBRE": "Hospitalet de Llobregat, L'"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "162",
+  "DC": "9",
+  "NOMBRE": "Hostalets de Pierola, Els"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "102",
+  "DC": "2",
+  "NOMBRE": "Igualada"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "103",
+  "DC": "8",
+  "NOMBRE": "Jorba"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "104",
+  "DC": "3",
+  "NOMBRE": "Llacuna, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "105",
+  "DC": "6",
+  "NOMBRE": "Llagosta, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "107",
+  "DC": "5",
+  "NOMBRE": "Lliçà d'Amunt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "108",
+  "DC": "1",
+  "NOMBRE": "Lliçà de Vall"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "106",
+  "DC": "9",
+  "NOMBRE": "Llinars del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "109",
+  "DC": "4",
+  "NOMBRE": "Lluçà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "110",
+  "DC": "8",
+  "NOMBRE": "Malgrat de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "111",
+  "DC": "5",
+  "NOMBRE": "Malla"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "112",
+  "DC": "0",
+  "NOMBRE": "Manlleu"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "113",
+  "DC": "6",
+  "NOMBRE": "Manresa"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "242",
+  "DC": "3",
+  "NOMBRE": "Marganell"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "114",
+  "DC": "1",
+  "NOMBRE": "Martorell"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "115",
+  "DC": "4",
+  "NOMBRE": "Martorelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "116",
+  "DC": "7",
+  "NOMBRE": "Masies de Roda, Les"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "117",
+  "DC": "3",
+  "NOMBRE": "Masies de Voltregà, Les"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "118",
+  "DC": "9",
+  "NOMBRE": "Masnou, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "119",
+  "DC": "2",
+  "NOMBRE": "Masquefa"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "120",
+  "DC": "6",
+  "NOMBRE": "Matadepera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "121",
+  "DC": "3",
+  "NOMBRE": "Mataró"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "122",
+  "DC": "8",
+  "NOMBRE": "Mediona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "138",
+  "DC": "5",
+  "NOMBRE": "Moià"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "123",
+  "DC": "4",
+  "NOMBRE": "Molins de Rei"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "124",
+  "DC": "9",
+  "NOMBRE": "Mollet del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "128",
+  "DC": "7",
+  "NOMBRE": "Monistrol de Calders"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "127",
+  "DC": "1",
+  "NOMBRE": "Monistrol de Montserrat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "125",
+  "DC": "2",
+  "NOMBRE": "Montcada i Reixac"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "130",
+  "DC": "4",
+  "NOMBRE": "Montclar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "131",
+  "DC": "1",
+  "NOMBRE": "Montesquiu"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "126",
+  "DC": "5",
+  "NOMBRE": "Montgat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "132",
+  "DC": "6",
+  "NOMBRE": "Montmajor"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "133",
+  "DC": "2",
+  "NOMBRE": "Montmaneu"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "135",
+  "DC": "0",
+  "NOMBRE": "Montmeló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "136",
+  "DC": "3",
+  "NOMBRE": "Montornès del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "137",
+  "DC": "9",
+  "NOMBRE": "Montseny"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "129",
+  "DC": "0",
+  "NOMBRE": "Muntanyola"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "139",
+  "DC": "8",
+  "NOMBRE": "Mura"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "140",
+  "DC": "2",
+  "NOMBRE": "Navarcles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "141",
+  "DC": "9",
+  "NOMBRE": "Navàs"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "142",
+  "DC": "4",
+  "NOMBRE": "Nou de Berguedà, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "143",
+  "DC": "0",
+  "NOMBRE": "Òdena"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "145",
+  "DC": "8",
+  "NOMBRE": "Olèrdola"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "146",
+  "DC": "1",
+  "NOMBRE": "Olesa de Bonesvalls"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "147",
+  "DC": "7",
+  "NOMBRE": "Olesa de Montserrat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "148",
+  "DC": "3",
+  "NOMBRE": "Olivella"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "149",
+  "DC": "6",
+  "NOMBRE": "Olost"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "144",
+  "DC": "5",
+  "NOMBRE": "Olvan"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "150",
+  "DC": "9",
+  "NOMBRE": "Orís"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "151",
+  "DC": "6",
+  "NOMBRE": "Oristà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "152",
+  "DC": "1",
+  "NOMBRE": "Orpí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "153",
+  "DC": "7",
+  "NOMBRE": "Òrrius"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "154",
+  "DC": "2",
+  "NOMBRE": "Pacs del Penedès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "155",
+  "DC": "5",
+  "NOMBRE": "Palafolls"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "156",
+  "DC": "8",
+  "NOMBRE": "Palau-solità i Plegamans"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "157",
+  "DC": "4",
+  "NOMBRE": "Pallejà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "905",
+  "DC": "8",
+  "NOMBRE": "Palma de Cervelló, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "158",
+  "DC": "0",
+  "NOMBRE": "Papiol, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "159",
+  "DC": "3",
+  "NOMBRE": "Parets del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "160",
+  "DC": "7",
+  "NOMBRE": "Perafita"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "161",
+  "DC": "4",
+  "NOMBRE": "Piera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "163",
+  "DC": "5",
+  "NOMBRE": "Pineda de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "164",
+  "DC": "0",
+  "NOMBRE": "Pla del Penedès, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "165",
+  "DC": "3",
+  "NOMBRE": "Pobla de Claramunt, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "166",
+  "DC": "6",
+  "NOMBRE": "Pobla de Lillet, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "167",
+  "DC": "2",
+  "NOMBRE": "Polinyà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "182",
+  "DC": "5",
+  "NOMBRE": "Pont de Vilomara i Rocafort, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "168",
+  "DC": "8",
+  "NOMBRE": "Pontons"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "169",
+  "DC": "1",
+  "NOMBRE": "Prat de Llobregat, El"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "171",
+  "DC": "2",
+  "NOMBRE": "Prats de Lluçanès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "170",
+  "DC": "5",
+  "NOMBRE": "Prats de Rei, Els"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "230",
+  "DC": "3",
+  "NOMBRE": "Premià de Dalt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "172",
+  "DC": "7",
+  "NOMBRE": "Premià de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "174",
+  "DC": "8",
+  "NOMBRE": "Puigdàlber"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "175",
+  "DC": "1",
+  "NOMBRE": "Puig-reig"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "176",
+  "DC": "4",
+  "NOMBRE": "Pujalt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "177",
+  "DC": "0",
+  "NOMBRE": "Quar, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "178",
+  "DC": "6",
+  "NOMBRE": "Rajadell"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "179",
+  "DC": "9",
+  "NOMBRE": "Rellinars"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "180",
+  "DC": "3",
+  "NOMBRE": "Ripollet"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "181",
+  "DC": "0",
+  "NOMBRE": "Roca del Vallès, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "183",
+  "DC": "1",
+  "NOMBRE": "Roda de Ter"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "184",
+  "DC": "6",
+  "NOMBRE": "Rubí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "185",
+  "DC": "9",
+  "NOMBRE": "Rubió"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "901",
+  "DC": "9",
+  "NOMBRE": "Rupit i Pruit"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "187",
+  "DC": "8",
+  "NOMBRE": "Sabadell"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "188",
+  "DC": "4",
+  "NOMBRE": "Sagàs"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "190",
+  "DC": "1",
+  "NOMBRE": "Saldes"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "191",
+  "DC": "8",
+  "NOMBRE": "Sallent"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "194",
+  "DC": "4",
+  "NOMBRE": "Sant Adrià de Besòs"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "195",
+  "DC": "7",
+  "NOMBRE": "Sant Agustí de Lluçanès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "196",
+  "DC": "0",
+  "NOMBRE": "Sant Andreu de la Barca"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "197",
+  "DC": "6",
+  "NOMBRE": "Sant Andreu de Llavaneres"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "198",
+  "DC": "2",
+  "NOMBRE": "Sant Antoni de Vilamajor"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "199",
+  "DC": "5",
+  "NOMBRE": "Sant Bartomeu del Grau"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "200",
+  "DC": "9",
+  "NOMBRE": "Sant Boi de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "201",
+  "DC": "6",
+  "NOMBRE": "Sant Boi de Lluçanès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "203",
+  "DC": "7",
+  "NOMBRE": "Sant Cebrià de Vallalta"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "202",
+  "DC": "1",
+  "NOMBRE": "Sant Celoni"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "204",
+  "DC": "2",
+  "NOMBRE": "Sant Climent de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "205",
+  "DC": "5",
+  "NOMBRE": "Sant Cugat del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "206",
+  "DC": "8",
+  "NOMBRE": "Sant Cugat Sesgarrigues"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "207",
+  "DC": "4",
+  "NOMBRE": "Sant Esteve de Palautordera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "208",
+  "DC": "0",
+  "NOMBRE": "Sant Esteve Sesrovires"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "210",
+  "DC": "7",
+  "NOMBRE": "Sant Feliu de Codines"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "211",
+  "DC": "4",
+  "NOMBRE": "Sant Feliu de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "212",
+  "DC": "9",
+  "NOMBRE": "Sant Feliu Sasserra"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "209",
+  "DC": "3",
+  "NOMBRE": "Sant Fost de Campsentelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "213",
+  "DC": "5",
+  "NOMBRE": "Sant Fruitós de Bages"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "215",
+  "DC": "3",
+  "NOMBRE": "Sant Hipòlit de Voltregà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "193",
+  "DC": "9",
+  "NOMBRE": "Sant Iscle de Vallalta"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "216",
+  "DC": "6",
+  "NOMBRE": "Sant Jaume de Frontanyà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "218",
+  "DC": "8",
+  "NOMBRE": "Sant Joan de Vilatorrada"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "217",
+  "DC": "2",
+  "NOMBRE": "Sant Joan Despí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "903",
+  "DC": "0",
+  "NOMBRE": "Sant Julià de Cerdanyola"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "220",
+  "DC": "5",
+  "NOMBRE": "Sant Julià de Vilatorta"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "221",
+  "DC": "2",
+  "NOMBRE": "Sant Just Desvern"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "222",
+  "DC": "7",
+  "NOMBRE": "Sant Llorenç d'Hortons"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "223",
+  "DC": "3",
+  "NOMBRE": "Sant Llorenç Savall"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "225",
+  "DC": "1",
+  "NOMBRE": "Sant Martí d'Albars"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "224",
+  "DC": "8",
+  "NOMBRE": "Sant Martí de Centelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "226",
+  "DC": "4",
+  "NOMBRE": "Sant Martí de Tous"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "227",
+  "DC": "0",
+  "NOMBRE": "Sant Martí Sarroca"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "228",
+  "DC": "6",
+  "NOMBRE": "Sant Martí Sesgueioles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "229",
+  "DC": "9",
+  "NOMBRE": "Sant Mateu de Bages"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "231",
+  "DC": "0",
+  "NOMBRE": "Sant Pere de Ribes"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "232",
+  "DC": "5",
+  "NOMBRE": "Sant Pere de Riudebitlles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "233",
+  "DC": "1",
+  "NOMBRE": "Sant Pere de Torelló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "234",
+  "DC": "6",
+  "NOMBRE": "Sant Pere de Vilamajor"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "189",
+  "DC": "7",
+  "NOMBRE": "Sant Pere Sallavinera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "235",
+  "DC": "9",
+  "NOMBRE": "Sant Pol de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "236",
+  "DC": "2",
+  "NOMBRE": "Sant Quintí de Mediona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "237",
+  "DC": "8",
+  "NOMBRE": "Sant Quirze de Besora"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "238",
+  "DC": "4",
+  "NOMBRE": "Sant Quirze del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "239",
+  "DC": "7",
+  "NOMBRE": "Sant Quirze Safaja"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "240",
+  "DC": "1",
+  "NOMBRE": "Sant Sadurní d'Anoia"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "241",
+  "DC": "8",
+  "NOMBRE": "Sant Sadurní d'Osormort"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "098",
+  "DC": "3",
+  "NOMBRE": "Sant Salvador de Guardiola"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "262",
+  "DC": "8",
+  "NOMBRE": "Sant Vicenç de Castellet"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "264",
+  "DC": "9",
+  "NOMBRE": "Sant Vicenç de Montalt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "265",
+  "DC": "2",
+  "NOMBRE": "Sant Vicenç de Torelló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "263",
+  "DC": "4",
+  "NOMBRE": "Sant Vicenç dels Horts"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "243",
+  "DC": "9",
+  "NOMBRE": "Santa Cecília de Voltregà"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "244",
+  "DC": "4",
+  "NOMBRE": "Santa Coloma de Cervelló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "245",
+  "DC": "7",
+  "NOMBRE": "Santa Coloma de Gramenet"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "246",
+  "DC": "0",
+  "NOMBRE": "Santa Eugènia de Berga"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "247",
+  "DC": "6",
+  "NOMBRE": "Santa Eulàlia de Riuprimer"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "248",
+  "DC": "2",
+  "NOMBRE": "Santa Eulàlia de Ronçana"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "249",
+  "DC": "5",
+  "NOMBRE": "Santa Fe del Penedès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "250",
+  "DC": "8",
+  "NOMBRE": "Santa Margarida de Montbui"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "251",
+  "DC": "5",
+  "NOMBRE": "Santa Margarida i els Monjos"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "253",
+  "DC": "6",
+  "NOMBRE": "Santa Maria de Besora"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "256",
+  "DC": "7",
+  "NOMBRE": "Santa Maria de Martorelles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "255",
+  "DC": "4",
+  "NOMBRE": "Santa Maria de Merlès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "257",
+  "DC": "3",
+  "NOMBRE": "Santa Maria de Miralles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "259",
+  "DC": "2",
+  "NOMBRE": "Santa Maria de Palautordera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "258",
+  "DC": "9",
+  "NOMBRE": "Santa Maria d'Oló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "260",
+  "DC": "6",
+  "NOMBRE": "Santa Perpètua de Mogoda"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "261",
+  "DC": "3",
+  "NOMBRE": "Santa Susanna"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "192",
+  "DC": "3",
+  "NOMBRE": "Santpedor"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "267",
+  "DC": "1",
+  "NOMBRE": "Sentmenat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "269",
+  "DC": "0",
+  "NOMBRE": "Seva"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "270",
+  "DC": "4",
+  "NOMBRE": "Sitges"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "271",
+  "DC": "1",
+  "NOMBRE": "Sobremunt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "272",
+  "DC": "6",
+  "NOMBRE": "Sora"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "273",
+  "DC": "2",
+  "NOMBRE": "Subirats"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "274",
+  "DC": "7",
+  "NOMBRE": "Súria"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "276",
+  "DC": "3",
+  "NOMBRE": "Tagamanent"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "277",
+  "DC": "9",
+  "NOMBRE": "Talamanca"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "278",
+  "DC": "5",
+  "NOMBRE": "Taradell"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "275",
+  "DC": "0",
+  "NOMBRE": "Tavèrnoles"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "280",
+  "DC": "2",
+  "NOMBRE": "Tavertet"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "281",
+  "DC": "9",
+  "NOMBRE": "Teià"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "279",
+  "DC": "8",
+  "NOMBRE": "Terrassa"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "282",
+  "DC": "4",
+  "NOMBRE": "Tiana"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "283",
+  "DC": "0",
+  "NOMBRE": "Tona"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "284",
+  "DC": "5",
+  "NOMBRE": "Tordera"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "285",
+  "DC": "8",
+  "NOMBRE": "Torelló"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "286",
+  "DC": "1",
+  "NOMBRE": "Torre de Claramunt, La"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "287",
+  "DC": "7",
+  "NOMBRE": "Torrelavit"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "288",
+  "DC": "3",
+  "NOMBRE": "Torrelles de Foix"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "289",
+  "DC": "6",
+  "NOMBRE": "Torrelles de Llobregat"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "290",
+  "DC": "0",
+  "NOMBRE": "Ullastrell"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "291",
+  "DC": "7",
+  "NOMBRE": "Vacarisses"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "292",
+  "DC": "2",
+  "NOMBRE": "Vallbona d'Anoia"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "293",
+  "DC": "8",
+  "NOMBRE": "Vallcebre"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "294",
+  "DC": "3",
+  "NOMBRE": "Vallgorguina"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "295",
+  "DC": "6",
+  "NOMBRE": "Vallirana"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "296",
+  "DC": "9",
+  "NOMBRE": "Vallromanes"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "297",
+  "DC": "5",
+  "NOMBRE": "Veciana"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "298",
+  "DC": "1",
+  "NOMBRE": "Vic"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "299",
+  "DC": "4",
+  "NOMBRE": "Vilada"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "301",
+  "DC": "5",
+  "NOMBRE": "Viladecans"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "300",
+  "DC": "8",
+  "NOMBRE": "Viladecavalls"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "305",
+  "DC": "4",
+  "NOMBRE": "Vilafranca del Penedès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "306",
+  "DC": "7",
+  "NOMBRE": "Vilalba Sasserra"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "303",
+  "DC": "6",
+  "NOMBRE": "Vilanova de Sau"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "302",
+  "DC": "0",
+  "NOMBRE": "Vilanova del Camí"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "902",
+  "DC": "4",
+  "NOMBRE": "Vilanova del Vallès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "307",
+  "DC": "3",
+  "NOMBRE": "Vilanova i la Geltrú"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "214",
+  "DC": "0",
+  "NOMBRE": "Vilassar de Dalt"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "219",
+  "DC": "1",
+  "NOMBRE": "Vilassar de Mar"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "304",
+  "DC": "1",
+  "NOMBRE": "Vilobí del Penedès"
+ },
+ {
+  "CPRO": "08",
+  "CMUN": "308",
+  "DC": "9",
+  "NOMBRE": "Viver i Serrateix"
+ }
+]
