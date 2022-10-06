@@ -31,8 +31,6 @@ const TableHeader = ({isLoading, dias}) => {
 
   let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
 
-  console.log('rendering header')
-
   return (
     <thead>
       <tr key='row0'>
@@ -45,14 +43,15 @@ const TableHeader = ({isLoading, dias}) => {
   )
 }
 
+
+
 const EstadoCielo = ({estadoCielo, numDia}) => {
   return (
     estadoCielo.filter( (element) => isValidPeriod(element,numDia)).
       map( (element, index) => { 
-      return (<td key={`${numDia}${index}`} align='center'>
+      return (<td className='td_icon borde_dcha' key={`${numDia}${index}`} align='center'>
         <div>{(element.periodo) ? element.periodo : '\u00A0' }</div>
         <div><img src={`assets/images/${element.value}.png`} title={element.descripcion} ></img></div>
-        <div>{`${numDia}${index}`}</div>
         </td>)}
     )
   )
@@ -79,10 +78,9 @@ const FilaPar = ({dias, texto}) => {
 
 const Row3 = ({dias}) => {
   let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
-  return (<tr>
+  return (<tr style={{textAlign:'center'}}>
   {dias.map((elem, index) => {
     let datos = elem.probPrecipitacion.filter((value) => { return /00-24/.test(value.periodo) || (value.periodo===undefined) });
-    console.log(datos[0].value)
     return <ProbPrecipitacion key={index} probPrecipitacion={datos[0].value} colSpan={col[index]} ></ProbPrecipitacion>
   })}
   </tr>
@@ -91,14 +89,14 @@ const Row3 = ({dias}) => {
 
 const ProbPrecipitacion = ({probPrecipitacion, colSpan}) => {
     return (
-      <td colSpan={colSpan}>{probPrecipitacion}%</td>
+      <td className='borde_dcha_nocomunes' colSpan={colSpan}>{probPrecipitacion}%</td>
     )
 }
 
 
 const Row4 = ({dias}) => {
   let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
-  return (<tr>
+  return (<tr style={{textAlign:'center'}}>
   {dias.map((elem, index) => {
     return <Temperatura key={index} maxima={elem.temperatura.maxima} minima={elem.temperatura.minima} colSpan={col[index]} ></Temperatura>
   })}
@@ -109,20 +107,18 @@ const Row4 = ({dias}) => {
 
 const Temperatura = ({maxima, minima, colSpan}) => {
   return (
-    <td colSpan={colSpan}>{minima}/{maxima}</td>
+    <td className='borde_dcha_nocomunes' colSpan={colSpan}>{minima}/{maxima}</td>
   )
 }
-
 
 
 const WeatherPred = ({ cityCode, cityName}) => {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
-
     useEffect(() => {
       getPred(cityCode).then((res) => {
-        setData(res[0])
+        setData(res.data[0])
         setIsLoading(false)
       })
       .catch( (err) => console.log(err))

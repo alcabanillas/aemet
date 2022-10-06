@@ -2,10 +2,22 @@
 	background-color: #5180C5;
 	color: #e2eef3;
 	text-align: center;
+	border-right: 1px solid #fff;
 }
 
-.th_icon {
+.td_icon {
 	background-color: #95B6E9;
+	color: #fff;
+}
+
+.borde_dcha {
+	background-color: #95B6E9;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+
+.borde_dcha_nocomunes {
+	border-right: 3px solid #e2eef3;
 }
 
 .fila_par {
