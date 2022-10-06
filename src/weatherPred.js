@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 import {getPred} from './services/getPred'
+import {Row, Col} from 'react-bootstrap'
 
 
 let dates = () => {
@@ -25,19 +26,17 @@ const isValidPeriod = (elem, numDia)  => {
 }
 
 
-const TableHeader = ({isLoading, dias}) => {
-  
+const TableHeader = ({dias}) => {
   let header = dates();
-
   let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
 
   return (
     <thead>
       <tr key='row0'>
-      { !isLoading &&
-        (header.map((element, index) =>{
+
+        {header.map((element, index) =>{
         return <th key={`${element.i}`} className='th_header' colSpan={col[index]}>{element.date}</th>
-        })) }
+        })}
       </tr>
     </thead>
   )
@@ -58,7 +57,7 @@ const EstadoCielo = ({estadoCielo, numDia}) => {
 }
 
 
-const Row1 = ({dias}) => {
+const FilaCielo = ({dias}) => {
   return (
     <tr>{
       dias.map( (element, index) => {
@@ -76,7 +75,7 @@ const FilaPar = ({dias, texto}) => {
   </tr>)  
 }
 
-const Row3 = ({dias}) => {
+const FilaPrecipitacion = ({dias}) => {
   let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
   return (<tr style={{textAlign:'center'}}>
   {dias.map((elem, index) => {
@@ -94,7 +93,7 @@ const ProbPrecipitacion = ({probPrecipitacion, colSpan}) => {
 }
 
 
-const Row4 = ({dias}) => {
+const FilaTemperatura = ({dias}) => {
   let col = [dias[0].estadoCielo.filter( (elem) => isValidPeriod(elem,0)).length, "4","2","2","1","1","1"];
   return (<tr style={{textAlign:'center'}}>
   {dias.map((elem, index) => {
@@ -117,28 +116,40 @@ const WeatherPred = ({ cityCode, cityName}) => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
+      console.log('useEffect')
       getPred(cityCode).then((res) => {
+        setIsLoading(true)
         setData(res.data[0])
+        console.log(res.data[0])
         setIsLoading(false)
       })
       .catch( (err) => console.log(err))
     }, [cityCode]);
 
     return (
-      <div className="row">
-        <h1>Weather pred in {cityCode} - {cityName}</h1>
+      <Row>
+        <Col>
+        <div className='notas_tabla'>Capital: {cityName}</div>
+        </Col>
+        <Col lg={12}>
         {isLoading ? (<div>Loading...</div>) : (
-        <table id = "tabla_prediccion">
+        <table className="tabla_prediccion">
           <TableHeader dias={data.prediccion.dia} isLoading={isLoading}></TableHeader>
           <tbody>
-            <Row1 dias={data.prediccion.dia}></Row1>
+            <FilaCielo dias={data.prediccion.dia}></FilaCielo>
             <FilaPar dias={data.prediccion.dia} texto={"Probabilidad de precipitacion"} ></FilaPar>
-            <Row3 dias={data.prediccion.dia}></Row3>
+            <FilaPrecipitacion dias={data.prediccion.dia}></FilaPrecipitacion>
             <FilaPar dias={data.prediccion.dia} texto={"Temperatura"}></FilaPar>
-            <Row4 dias={data.prediccion.dia}></Row4>
+            <FilaTemperatura dias={data.prediccion.dia}></FilaTemperatura>
           </tbody>
         </table>) }
-      </div>
+        </Col>
+        {!isLoading && (<Col className='mt-5 disclaimer'>
+        <div>{data.origen.productor}</div>
+        <div>{data.origen.copyright}</div>
+        <div><a href={data.origen.web}>{data.origen.web}</a></div>
+        </Col>)}
+      </Row>
     );
   };
 

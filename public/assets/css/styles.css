@@ -1,3 +1,27 @@
+.titulo {
+	color: #1b4990;
+	text-align: center;
+	font-style: normal;
+	padding: 10px;
+	font-size: 1.6em;
+	margin-top: 0;
+	font-weight: 500;
+}
+
+.notas_tabla {
+	color: #4F86D8;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.tabla_prediccion{
+	border-collapse: collapse;
+  	width: 100%;
+  	border: 1px solid #ddd;
+}
+
 .th_header {
 	background-color: #5180C5;
 	color: #e2eef3;
@@ -22,4 +46,9 @@
 
 .fila_par {
 	background-color: #e2eef3
+}
+
+.disclaimer {
+    font-style: italic;
+    font-size: 13px;	
 }

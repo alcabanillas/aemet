@@ -17,6 +17,12 @@ async function getPred(cityCode) {
         credentials: 'same-origin',
     };
 
+    let metadata = await axios.get(url.data.metadatos, config)
+        .then( (res) => { 
+            return res})
+        .catch( (err) => {
+            return err})
+
     const result = await axios.get(url.data.datos, config)
         .then( (res) => { 
             return res})

@@ -27,7 +27,7 @@ const SelectCity = ({ handleChange }) => {
   console.log("Rendering form...");
 
   return (
-    <Row>
+    <Row className="mb-3">
       <Form onSubmit={handleSubmit}>
         <Col>
           <FormGroup className="mb-3">
