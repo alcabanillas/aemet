@@ -50,7 +50,7 @@ const EstadoCielo = ({estadoCielo, numDia}) => {
       map( (element, index) => { 
       return (<td className='td_icon borde_dcha' key={`${numDia}${index}`} align='center'>
         <div>{(element.periodo) ? element.periodo : '\u00A0' }</div>
-        <div><img src={`assets/images/${element.value}.png`} title={element.descripcion} ></img></div>
+        <div><img src={`assets/images/${element.value.replace('n','')}.png`} title={element.descripcion} ></img></div>
         </td>)}
     )
   )
@@ -111,16 +111,35 @@ const Temperatura = ({maxima, minima, colSpan}) => {
 }
 
 
-const WeatherPred = ({ cityCode, cityName}) => {
+const WeatherPred = ({ cityCode}) => {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [cityName, setCityName] = useState('')
+
+    const dataToObjects = (data) => {
+      let dias = data.prediccion.dia.filter(
+        (element) => {
+          let curDate = new Date()
+          let elemDate = new Date(element.fecha)
+
+          return true
+
+          let retValue = (elemDate.getMonth() > curDate.getMonth()) ? true : (elemDate.getDate() >= curDate.getDate());
+          console.log(`${elemDate}, ${curDate}, ${retValue}`)
+
+          return (elemDate.getMonth() > curDate.getMonth()) ? true : (elemDate.getDate() >= curDate.getDate())
+        }
+      )
+      let result = {prediccion : dias, origen : data.origen};
+      setCityName(data.nombre);
+      return result;
+    }
 
     useEffect(() => {
       console.log('useEffect')
       getPred(cityCode).then((res) => {
         setIsLoading(true)
-        setData(res.data[0])
-        console.log(res.data[0])
+        setData(dataToObjects(res.data[0]))
         setIsLoading(false)
       })
       .catch( (err) => console.log(err))
@@ -134,13 +153,13 @@ const WeatherPred = ({ cityCode, cityName}) => {
         <Col lg={12}>
         {isLoading ? (<div>Loading...</div>) : (
         <table className="tabla_prediccion">
-          <TableHeader dias={data.prediccion.dia} isLoading={isLoading}></TableHeader>
+          <TableHeader dias={data.prediccion} isLoading={isLoading}></TableHeader>
           <tbody>
-            <FilaCielo dias={data.prediccion.dia}></FilaCielo>
-            <FilaPar dias={data.prediccion.dia} texto={"Probabilidad de precipitacion"} ></FilaPar>
-            <FilaPrecipitacion dias={data.prediccion.dia}></FilaPrecipitacion>
-            <FilaPar dias={data.prediccion.dia} texto={"Temperatura"}></FilaPar>
-            <FilaTemperatura dias={data.prediccion.dia}></FilaTemperatura>
+            <FilaCielo dias={data.prediccion}></FilaCielo>
+            <FilaPar dias={data.prediccion} texto={"Probabilidad de precipitacion"} ></FilaPar>
+            <FilaPrecipitacion dias={data.prediccion}></FilaPrecipitacion>
+            <FilaPar dias={data.prediccion} texto={"Temperatura"}></FilaPar>
+            <FilaTemperatura dias={data.prediccion}></FilaTemperatura>
           </tbody>
         </table>) }
         </Col>

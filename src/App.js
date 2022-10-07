@@ -7,11 +7,9 @@ import {Container} from 'react-bootstrap';
 
 const Aemet = () => {
   const [city, setCity] = useState("");
-  const [cityName, setCityName] = useState("");
 
-  const handleChange = ({ newCity, newCityName }) => {
+  const handleChange = ({ newCity}) => {
     setCity(newCity);
-    setCityName(newCityName);
     console.log("Set city...");
   };
   console.log("Rendering app...");
@@ -19,7 +17,7 @@ const Aemet = () => {
   return (
     <Container>
       <SelectCity handleChange={handleChange}></SelectCity>
-      {city !== "" && <WeatherPred cityCode={city} cityName={cityName} ></WeatherPred>}
+      {city !== "" && <WeatherPred cityCode={city}></WeatherPred>}
     </Container>
   );
 };
