@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Describe your project
+Proyecto para obtener la predicción semanal meteorológica de cualquier municipio de la provincia de Barcelona. Los datos se obtienen gracias al servicio OpenData de AEMET: https://opendata.aemet.es/centrodedescargas/inicio
 
 ## :sparkles: Features ##
 
